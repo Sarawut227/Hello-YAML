@@ -1,0 +1,12 @@
+name: Sarawut Tiyawong
+
+on:
+  push:
+   branches: [main]
+
+jobs:
+ say-hello:
+  runs-on: obuntu-lastest
+  steps:
+   - name: Say Hello
+     run: echo "Hello Sarawut"
